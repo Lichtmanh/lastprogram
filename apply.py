@@ -4,9 +4,10 @@
 
 from Person import Person
 from Textbook import Textbook
-titles = []
+#No need for a list of titles, just get the title and then create the book like you do on line 22
+#titles = []
 title = input("What is the title of the book?>>")
-titles.append(title)
+#titles.append(title)
 first = input("Enter the authors first name.>>")
 last = input("Enter the authors last name.>>")
 age = input("Enter the authors age.>>")
